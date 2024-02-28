@@ -108,17 +108,18 @@
 /* Mobile view */
 @media screen and (max-width: 600px) {
     .countdown{
-        width: 100%;
+        width:100%;
     }
     .countdown div{
-        font-size:3.2em ;
+        font-size:3em ;
+        justify-content: space-around;
     }
     .countdown div::after{
-        font-size: 9px;
-        letter-spacing: 8px;
+        font-size: 8px;
+        letter-spacing: 5px;
     }
     .header{
-        font-size: 2.3em;
+        font-size: 1.9em;
     }
     .due-date{
         font-size: 0.9em;
